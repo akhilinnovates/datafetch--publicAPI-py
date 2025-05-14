@@ -1,9 +1,9 @@
-**Name=**AKHIL KUMAR SHARMA
-**Company=** CODETECH IT SOLUTION
-**ID=**CTO8DK541
-**Domain=**PYTHON PROGRAMMING
-**Duration=**April to June 2025
-**Mentor=**Neela Santosh Kumar
+**Name=**AKHIL KUMAR SHARMA <br>
+**Company=** CODETECH IT SOLUTION<br>
+**ID=**CT08DK541<br>
+**Domain=**PYTHON PROGRAMMING<br>
+**Duration=**April to June 2025<br>
+**Mentor=**Neela Santosh Kumar<br>
 <h1>OVERVIEW OF THE PROJECT</h1>
 <hr>
 Project: Data fetching from a Public API named as "Openweathermap"
