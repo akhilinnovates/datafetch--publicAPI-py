@@ -31,5 +31,6 @@ Project: Data fetching from a Public API named as "Openweathermap"
 **OpenWeatherMap provides real-time, forecast, and historical weather data for millions of locations worldwide.**
 
 **Supports data access by city name, ZIP code, geographic coordinates, or city**
-
+<img src="C:\Users\akhil\OneDrive\Pictures\Screenshots\Screenshot 2025-05-14 185206.png"
+width="300px" height="200px">
 
