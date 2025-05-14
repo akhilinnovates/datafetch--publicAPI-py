@@ -1,13 +1,35 @@
-import requests   #run "pip install request" in cmd terminal, then import
+**Name=**AKHIL KUMAR SHARMA
+**Company=** CODETECH IT SOLUTION
+**ID=**CTO8DK541
+**Domain=**PYTHON PROGRAMMING
+**Duration=**April to June 2025
+**Mentor=**Neela Santosh Kumar
+<h1>OVERVIEW OF THE PROJECT</h1>
+<hr>
+Project: Data fetching from a Public API named as "Openweathermap"
+<h2>Objective</h2>
+<p>The main objective of using "OpenWeatherMap"for data fetching is that it is a popular public API that provides weather data for any location in the world. It offers various types of weather information, including current conditions, forecasts, historical data, and weather maps. This API is widely used in web and mobile applications that require real-time weather updates.</p>
+<h3>Key Features</h3>
+1)Current weather data for any location (city name, ZIP code, coordinates, etc.)
 
-city_name="Africa"    #enter city name of your choice
-API_Key="c582e36619807e89dc7ef9cf3d9670ab"    #fetched free api from "Openweather"
-url=f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_Key}&unit=metric"
+2)5-day/3-hour forecast
 
-response=requests.get(url)
-if response.status_code==200:    #just check that whether api is successfully called or notby print("yes, we hit")
-    data=response.json()
-    print("WEATHER IS: ",data["weather"][0]["description"])       #response will be generatedd in dictionary format
-    print("CURRENT TEMPERATURE IS:",data["main"]["temp"])
-    print("CURRENT TEMPERATURE FEELS LIKE:",data["main"]["feels_like"])
-    print("CURRENT humidity IS",data["main"]["humidity"])
+3)16-day daily forecast (for paid accounts)
+
+4)Historical weather data
+
+5)Air pollution and UV index data
+
+6)Weather alerts
+
+<h4>Technology Used</h4>
+**PYTHON :**  THE PRIMARY PROGRAMMING LANGUAGE
+**requests library :** It's widely used for interacting with web APIs, including fetching data from public APIs like OpenWeatherMap.
+<h5>
+    Key Insights
+</h5>
+**OpenWeatherMap provides real-time, forecast, and historical weather data for millions of locations worldwide.**
+
+**Supports data access by city name, ZIP code, geographic coordinates, or city**
+
+
